@@ -1,0 +1,14 @@
+{
+  "name": "alphabot-autospin",
+  "version": "1.0.0",
+  "description": "Bot untuk auto spin wheel pada aplikasi AlphaBot",
+  "main": "alphabot_autospin.js",
+  "scripts": {
+    "start": "node alphabot_autospin.js"
+  },
+  "dependencies": {
+    "puppeteer": "^19.0.0"
+  },
+  "author": "L4ns",
+  "license": "MIT"
+}
