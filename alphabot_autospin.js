@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const { privateKey, walletAddress } = require('./credentials');
 
 (async () => {
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({ headless: 'new' });
     const page = await browser.newPage();
 
     // Fungsi untuk login ke AlphaBot
